@@ -1,55 +1,77 @@
-<!-- Code Challenge #5 | 25 Points -->
-
-<!-- Directions:
-
-Step 1:
-Select all of this document, copy and paste it into a new document in sublime text.
-
-Step 2:
-Inside of the .container div, insert typography tags h2, h3, h4, h5, h6. Add some content inside of each tag. 
-
-Step 3: 
-After each h tag, add a p tag with some content inside of it.
-
-Step 3:
-In the style tag, write some CSS for each of the tags you added to create a well-designed typography style tile. Consider things like font-family, font-size, color, letter-spacing, line-height, etc.
-
-Step 4: 
-Paste all the code from your sublime document back into github and commit your changes.
-
-BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
-
--->
-
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Code Challenge #5</title>
-		<style>
-			body {
+<!DOCTYPE html> 
+25 <html> 
+26 	<head> 
+27 		<title>Code Challenge #5</title> 
+28 		<style> 
+29 			body { 
+30 				margin: 0; 
+31 				padding: 0; 
+32 			} 
+			.container {
+				background-color: #fff
+				width: 80%;
+				padding: 5%;
+				margin: 0 5%
+			}
+			h2{
 				margin: 0;
-				padding: 0;
+				font-family: Arial, sans-serif
 			}
-			header {
-				padding: 50px 0;
+			h3{
+				margin: 0;
+				font-family: Arial, sans-serif;
 			}
-			header h1 {
-				text-align: center;
+			h4{
+				margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: .15em;
+				text-transform: uppercase;
 			}
-			section {
-				padding: 25px 0;
+			h5{
+				margin: 0;
+				font-family: Arial, sans-serif
+				letter-spacing: .15em;
 			}
-		</style>
-	</head>
-	<body>
-		<header>
-			<h1>Code Challenge #5</h1>
-		</header>
-		<section>
-			<div class="container">
-			</div>
-		</section>
-		<footer>
-		</footer>
-	</body>
-</html>
+			h6{
+				margin: 0;
+				font-family: Arial, sans-serif;
+				letter-spacing: 
+			}
+
+			p{
+				margin: 0 0 30px 0;
+			}
+33 			header { 
+34 				padding: 50px 0; 
+35 			} 
+36 			header h1 { 
+37 				text-align: center; 
+38 			} 
+39 			section { 
+40 				padding: 25px 0; 
+41 			} 
+42 		</style> 
+43 	</head> 
+44 	<body> 
+45 		<header> 
+46 			<h1>Code Challenge #5</h1> 
+47 		</header> 
+48 		<section> 
+49 			<div class="container"> 
+			<h2> Pokemon Cards </h2>\
+				<p> Pokemon badges </p> 
+			<hr>
+			<h3> My Ebay wishlist </h3>
+				<p> soccer balls </p>
+			<h4>Jaguar whipping</h4>
+				<p> I'd really appreciate it </p>
+			<h5> I am gonna finish </h5>
+				<p> get this good grade</p>
+			<h6> 100 </h6>
+				<p> deserves a hundred </p>
+50 			</div> 
+51 		</section> 
+52 		<footer> 
+53 		</footer> 
+54 	</body> 
+55 </html> 
